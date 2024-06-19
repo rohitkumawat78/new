@@ -1,0 +1,865 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   } 
+    .first{
+        height: 780px;
+        width: 100%;
+        /* background-color: aqua; */
+        position: relative;
+        padding: 0%;
+        margin: 0%;
+       
+    }
+    .image1{
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+        height: 100%;
+    }
+    .logo{
+        width: 20%;
+        /* background-color: yellow; */
+        position: absolute;
+        height: 100px;
+        top: 40px;
+    }
+    .text{
+        height: 300px;
+        width: 450px;
+        /* background-color: tomato; */
+        position: absolute;
+        top: 250px;
+        left: 180px;
+       
+    }
+    .love{
+        height: 25%;
+        /* background-color: blue; */
+        position: relative;
+        animation-name: love;
+        animation-duration: .8s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
+        /* animation-direction: alternate; */
+        animation-fill-mode: forwards;
+    }
+    @keyframes love{
+        from{
+            top: 0px;
+            left: -590px;
+        }
+        to{
+            top: 0px;
+            left:0px;
+        }
+    }
+    .wedding{
+        height:25%;
+        /* background-color: red; */
+        position: relative;
+        animation-name: wedding;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
+        animation-delay: 1s;
+    }
+    @keyframes wedding {
+        from{
+            top: 0px;
+            left: -500px;
+        }
+        to{
+            top: 0px;
+            left: 0%;
+        }
+        
+    }
+    .bride{
+        height: 25%;
+        /* background-color:green; */
+        position: static;
+    }
+    @keyframes bride {
+        from{
+            top: 0px;
+            left: -500px;
+        }
+        to{
+            top: 0px;
+            left: 0%;
+        }
+    }
+    .bride{
+        height:25%;
+        /* background-color: red; */
+        position: relative;
+        animation-name: bride;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
+        animation-delay: 2s;
+    }
+    .text big{
+        color: white;
+        font-size: 55px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+    }
+    .contact{
+        /* background-color: white; */
+        position: relative;
+        height: 23%;
+        
+       
+    }
+    .contact button{
+        height: 100%;
+        background-color:white;
+        justify-content: center;
+        width: 50%;
+        border: 5px solid black;
+        border-radius: 5px;
+        margin: 5px;
+        cursor: pointer;
+    }
+    .contact a{
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    .contact :hover{
+        color: white;
+        background-color: red;
+        transition: 1s;
+    }
+    .contact a :hover{
+        color: white;
+    }
+    .second{
+        height: 40px;
+        width: 100%;
+        background-color: rgb(7, 7, 40);
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+    }
+    .nav{
+        /* background-color: aquamarine; */
+        width: 90%;
+        height: 100%;
+    }
+    .nav ul{
+        list-style-type: none;
+        
+        display: flex;
+        /* padding-left: 20px; */
+        padding-top: 5px;
+    }
+    .nav ul a{
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        padding-left: 55px;
+        padding-right: 75px;
+        /* border: 2px solid white; */
+    }
+    .second :hover{
+        color: red;
+        transition: 1s;
+        
+    }
+    
+    .bar{
+        background-color: red;
+        position: relative;
+        width: 4%;
+        height: 35px;
+        padding-top: 5px;
+        margin-right: 10px;
+        display: none;
+        /* width: 60px;
+        height: 30px;
+        right: 10px;
+        margin-top: 5px;
+       display: none; */
+    }
+    .bar img{
+        
+        width: 100%;
+        height: 80%;
+    }
+    
+    
+    .third{
+        position: relative;
+        height: 1200px;
+        width: 100%;
+        /* background-color: teal; */
+    }
+    .third img{
+        width: 100%;
+        height: 100%;
+    }
+    .aboutus{
+        height: 80px;
+        width: 300px;
+        position: absolute;
+        background-color: rgb(7, 7, 40);
+        top: 100px;
+        left: 37%;
+    }
+    .aboutus p{
+        text-align: center;
+        padding-top: 15px;
+        font-size: 35px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        color: white;
+    }
+    .center{
+        height: 500px;
+        width: 60%;
+        background-color: violet;
+        position: absolute;
+        top: 250px;
+        left: 20%;
+    }
+    .center img{
+         box-shadow:0 5px 10px black; 
+        /* filter:drop-shadow(15px 5px 10px black) */
+    }
+    .para{
+        height: 250px;
+        width: 50%;
+        position: absolute;
+        /* background-color:brown; */
+        top: 785px;
+        left: 25%;
+    }
+    .para p{
+        word-wrap: break-word;
+        font-size: 20px;
+    }
+    .more{
+        height: 50px;
+        width: 250px;
+        
+        position: absolute;
+       top: 1050px;
+        left: 40%;
+        cursor: pointer;
+    }
+    .more :hover{
+        background-color: red;
+        transition: 1s;
+    }
+    .more a{
+        text-decoration: none;
+        font-size: 30px;
+        color: white;
+    }
+    .more button{
+        height: 100%;
+        width: 100%;
+        cursor: pointer;
+        background-color: black;
+    }
+    .fourth{
+        height: 600px;
+        width: 100%;
+        position: relative;
+        background-color: rgb(7, 7, 40);
+        display: flex;
+    }
+    .happy{
+        height: 500px;
+        width: 50%;
+        /* background-color: tomato; */
+        position: relative;
+        margin-left: 10%;
+        color: white;
+        margin-top: 70px;
+    }
+    .intro{
+        width: 100%;
+        /* height: 50px; */
+         /* background-color: steelblue;  */
+        position: relative;
+        font-size: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-top: 15px;
+    }
+    .meet{
+        width: 100%;
+        height: 100px;
+        /* background-color: turquoise; */
+        position: relative;
+        font-size: 50px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        /* padding-top: 20px; */
+
+    }
+    .gph{
+
+        width: 100%;
+        height: 230px;
+        /* background-color:blue; */
+        position: relative;
+        font-size: 20px;
+        word-spacing: 5px;
+        /* padding-top: 15px; */
+        
+    }
+    .see{
+        width: 100%;
+        height: 70px;
+        /* background-color:burlywood; */
+        position: relative;
+        overflow: hidden;
+    }
+    .see button{
+        height: 100%;
+        width:40%;
+        /* background-color: aqua; */
+        cursor: pointer;
+        
+    }
+    .see a{
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bolder;
+        color: black;
+    }
+    .see :hover{
+        color: white;
+        background-color: red;
+        transition: 1s;
+        /* color: black; */
+    }
+    .cphoto{
+        height: 500px;
+        width: 40%;
+        /* background-color: slategray; */
+        position: relative;
+        margin-top: 70px;
+        
+    }
+    .cphoto img{
+        width: 100%;
+        height: 100%;
+    }
+    .fifth{
+        width: 100%;
+        height: 1400px;
+        background-color: blanchedalmond;
+        position: relative;
+    }
+    .fifth img{
+        width: 100%;
+        height: 100%;
+    }
+    .gallery{
+        height: 80px;
+        width: 320px;
+        background-color: rgb(7, 7, 40);
+        position: absolute;
+        top: 80px;
+        left: 38%;
+        opacity: .89;
+    }
+    .gallery p{
+        font-size: 50px;
+        text-align: center;
+        color: white;
+        font-weight: 300;
+    }
+    .slide{
+        height: 1000px;
+        width:80%;
+        position: absolute;
+        /* background-color: aqua; */
+        top: 225px;
+        left: 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+       
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+    .a{
+        
+        background-color: yellow;
+       grid-row: 1/3;
+        height: 700px;
+    }
+    .b{
+        
+        background-color: black;
+       grid-row: 1/2;
+       height: 280px;
+    }
+    .c{
+        
+        background-color: tomato;
+        grid-row: 1/3;
+        
+    }
+    .d{
+       
+        background-color: blue;
+        grid-row: 3/4;
+        height: 280px;
+        
+    }
+    .e{
+       
+        background-color: orange;
+        grid-row: 2/4;
+        height: 700px;
+    }
+    .f{
+       
+        background-color:green;
+        grid-row: 3/3;
+        height: 280px;
+    }
+    .slide img{
+        width: 100%;
+        height: 100%;
+    }
+    .pet{
+        height: 100px;
+        width: 80%;
+        /* background-color: violet; */
+        position: absolute;
+        top: 1280px;
+        left: 10%;
+    }
+    .pet p{
+        color: black;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+   
+.sixth{
+    width: 100%;
+    height: 1150px;
+    background-color: rgb(7, 7, 40);
+    position: relative;
+}
+.contct{
+    width: 20%;
+    height: 80px;
+    /* background-color:  yellowgreen; */
+    position: absolute;
+    margin-left: 40%;
+    right: 40%;
+    top: 60px;
+}
+.contct P{
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+}
+.combine{
+    height: 500px;
+    width: 100%;
+    background-color:  rgb(7, 7, 40);
+    /* background-color: aqua; */
+    position: absolute;
+    top: 150px;
+    display: flex;
+}
+.map{
+    height: 100%;
+    width: 50%;
+    /* background-color: thistle; */
+    position: relative;
+
+}
+.map img{
+    width: 100%;
+    height: 100%;
+}
+.form{
+    height: 100%;
+    width: 50%;
+    /* background-color: springgreen; */
+    position: relative;
+}
+.form p{
+    font-size: 20px;
+    color: white;
+
+}
+.phone{
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+    position: relative;
+    display: flex;
+}
+.name{
+    width: 50%;
+    height: 100%;
+    /* background-color: teal; */
+    position: relative;
+
+}
+
+.number{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    position: relative;
+}
+
+.email{
+    width: 100%;
+    height: 120px;
+    /* background-color: brown; */
+    position: relative;
+    margin-top: 15px;
+}
+.messege{
+    width: 100%;
+    height: 150px;
+    /* background-color: yellowgreen; */
+    position: relative;
+}
+ .send{
+    width: 150px;
+    height: 50px;
+    /* background-color: aqua; */
+    position: absolute;
+    right: 1px;
+ }
+ .send button{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+ }
+ .send a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+ }
+ .send :hover{
+    background-color: red;
+    transition: 1s;
+    color: white;
+ }
+ .line{
+    width: 80%;
+    height: 2px;
+    background-color: whitesmoke;
+    position: absolute;
+    top:680px;
+    left: 10%;
+    right: 10%;
+    opacity: .8;
+ }
+ .last{
+    height: 350px;
+    width: 80%;
+    /* background-color: cadetblue; */
+    position:absolute;
+    top: 720px;
+    display: flex;
+    margin-left: 10%;
+
+ }
+ .subscribe{
+    height: 100%;
+    width: 30%;
+    /* background-color: yellowgreen; */
+    position: relative;
+ }
+ .other{
+    width: 70%;
+    height: 100%;
+    /* background-color: teal; */
+    position: relative;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    column-gap: 2%;
+    
+ }
+ .ek{
+    /* background-color: aqua; */
+    
+ }
+ .do{
+    /* background-color: brown; */
+ }
+ .teen{
+    /* background-color: black; */
+ }
+ .chaar{
+    /* background-color: tan; */
+ }
+ .h1{
+    height: 40px;
+    width: 100%;
+    /* background-color: steelblue; */
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: 700;
+ }
+ .h2{
+    height: 40px;
+    width: 100%;
+    /* background-color: chartreuse; */
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: 700;
+ }
+ .h3{
+    height: 40px;
+    width: 100%;
+    /* background-color: brown; */
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: 700;
+ }
+ .h4{
+    height: 40px;
+    width: 100%;
+    /* background-color: thistle; */
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: 700;
+ }
+ .logo1{
+    height: 130px;
+    width: 100%;
+    /* background-color: navy; */
+    position: relative;
+ }
+ .logo1 img{
+    height: 100%;
+    width: 65%;
+ }
+ .rohit{
+    width: 100%;
+    margin-top: 10px;
+    height: 100px;
+    /* background-color: red; */
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+ }
+ .rohit button{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    margin-top: 10px;
+    right: 20px;
+    float: right;
+    margin-right: 34px;
+    cursor: pointer;
+ }
+ .rohit a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    padding: 0%;
+    margin: 0%;
+ }
+ .rohit button :hover{
+    background-color: red;
+    color: white;
+    transition: 1s;
+ }
+ .ek p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+ }
+ .do p{
+    
+    color: white;
+    font-size: 18px;
+    /* text-align: center; */
+    padding-top: 10px;
+    text-decoration: none;
+ }
+ .do a{
+    text-decoration: none;
+    color: white;
+ }
+ .do  :hover{
+    color: red;
+    transition: 1s;
+ }
+ .teen p{
+    
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+ }
+ .teen a{
+    text-decoration: none;
+    color: white;
+ }
+ .teen  :hover{
+    color: red;
+    transition: 1s;
+ }
+ .location{
+    height: 30px;
+    margin-top: 5px;
+    width: 100%;
+    /* background-color: springgreen; */
+    display: flex;
+    position: relative;
+ }
+ .icon{
+    width: 20%;
+    height: 100%;
+    /* background-color: blue; */
+ }
+ .icon img{
+    width: 100%;
+    height: 100%;
+ }
+ .name1{
+    width: 80%;
+    height: 100%;
+    /* background-color: salmon; */
+    font-size: 20px;
+    padding-left: 10px;
+    color: white;
+    text-transform: capitalize;
+ }
+ .phone1{
+    height: 30px;
+    margin-top: 15px;
+    width: 100%;
+    /* background-color: springgreen; */
+    display: flex;
+    position: relative;
+ }
+ .icon1{
+    width: 20%;
+    height: 100%;
+    /* background-color: blue; */
+ }
+ .icon1 img{
+    width: 100%;
+    height: 100%;
+ }
+ .number1{
+    width: 80%;
+    height: 100%;
+    /* background-color: salmon; */
+    font-size: 20px;
+    padding-left: 10px;
+    color: white;
+    text-transform: capitalize;
+ }
+ .gmail{
+    height: 30px;
+    margin-top: 15px;
+    width: 100%;
+    /* background-color: springgreen; */
+    display: flex;
+    position: relative;
+ }
+ .icon2{
+    width: 20%;
+    height: 100%;
+    /* background-color: blue; */
+ }
+ .icon2 img{
+    width: 100%;
+    height: 100%;
+ }
+ .mail1{
+    width: 80%;
+    height: 100%;
+    /* background-color: salmon; */
+    font-size: 15px;
+    
+    /* padding-left: 10px; */
+    color: white;
+    text-transform: capitalize;
+ }
+ .social{
+    width: 100%;
+    height: 50px;
+    /* background-color: fuchsia; */
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+ }
+ .fb{
+    width: 25%;
+    height: 100%;
+    /* background-color: aqua; */
+    margin-left: 0px;
+ }
+ .insta{
+    width: 25%;
+    height: 100%;
+    /* background-color: blue; */
+    margin-left: 5px;
+ }
+ .twitter{
+    width: 25%;
+    height: 100%;
+    /* background-color: rosybrown; */
+    margin-left: 5px;
+ }
+ .linkedin{
+    width: 25%;
+    height: 100%;
+    /* background-color: green; */
+    margin-left: 5px;
+ }
+ .social img{
+    width: 90%;
+    height: 100%;
+ }
+ .fb :hover{
+    color: red;
+ }
+ .line2{
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 1080px;
+    left: 10%;
+ }
+ .copyright{
+    width: 100%;
+    height: 50px;
+    /* background-color: navy; */
+    top: 1090px;
+    position: absolute;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    opacity: .8;
+ }

@@ -1,0 +1,508 @@
+ @media screen and (max-width:1024px) {
+    
+    
+    .text{
+        height: 40%;
+        left: 60px;
+        width: 440px;
+        padding: 0%;
+        margin: 0%;
+        
+    }
+    
+    .contact button{
+        width: 70%;
+        
+    }
+    .second{
+        height: 40px;
+        width: 100%;
+        
+       
+    }
+    .second ul{
+        padding-top: 10px;
+       
+    }
+    .second ul a{
+        padding-left: 30px;
+        padding-right: 30px;
+        
+    }
+    .third{
+        height: 1250px;
+    }
+    .para{
+        height: 350px;
+        /* overflow: scroll; */
+        width: 60%;
+        left: 20%;
+    }
+    
+    .more{
+        top: 1150px;
+        width: 200px;
+        height: 60px;
+    }
+    .more a{
+        font-size: 30px;
+        text-align: center;
+    }
+    .fourth{
+        height: 650px;
+    }
+    .happy{
+        margin-left: 20px;
+        width: 60%;
+        height: 550px;
+    }
+    .meet{
+        height: 60px;
+        padding-top: 8px;
+        font-size: 40px;
+    }
+    .gph{
+        height: 370px;
+        font-size: 21px;
+        overflow: scroll;
+    }
+    .see{
+        height: 60px;
+    
+    }
+    .see button{
+        width: 50%;
+    }
+    .cphoto{
+        height: 350px;
+        width: 40%;
+        margin-left: 85px;
+
+    }
+    .sixth{
+        height: 1300px;
+    }
+    .combine{
+        top: 180px;
+        height: 450px;
+    }
+    .contct{
+        width: 30%;
+       right: 35%;
+       top: 50px;
+        
+    }
+    .map{
+        height: 70%;
+        margin-left: 10px;
+        width: 45%
+    }
+    .form{
+        margin-left: 40px;
+    }
+    .send{
+        right: 1px;
+        width: 180px;
+        height: 60px;
+    }
+    .line{
+        top: 650px;
+    }
+    .line2{
+        top: 1230px;
+    }
+    .copyright{
+        top: 1240px;
+    }
+    .last{
+        height: 500px;
+    }
+    .other{
+        
+        display: grid;
+        grid-template-columns: 40% 28% 30%;
+        column-gap: 2%;
+        
+    }
+    .ek{
+        grid-row: 1/2;
+    }
+    .do{
+        grid-row: 2/3
+    }
+    .teen{
+        grid-row:1/2;
+    }
+    .chaar{
+        grid-row: 1/2;
+    }
+   
+} 
+@media screen and (max-width:768px) {
+    .text{
+        width: 360px;
+        left: 50px;
+        height: 240px;
+       
+    }
+    .text big{
+        font-size: 40px;
+    }
+    .love{
+        height: 20%;
+    }
+    .wedding{
+        height: 20%;
+    }
+    .bide{
+        height: 20%;
+    }
+    .contact button{
+        width: 50%;
+    }
+    .second{
+        height: 40px;
+        width: 100%;
+        
+       
+    }
+    .second ul{
+        padding-top: 10px;
+       
+    }
+    .second ul a{
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+    .third{
+        height: 1050px;
+    }
+    .center{
+        height: 350px;
+        width: 90%;
+        left: 5%;
+        top: 230px;
+    }
+    .para{
+        top: 610px;
+        width: 90%;
+        left: 5%;
+        height: 320px;
+        overflow: hidden;
+    }
+    .more{
+        top: 940px;
+        width: 40%;
+        left: 30%;
+    }
+    .fourth{
+        height: 1250px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .happy{
+        width: 90%;
+        margin-left: 7%;
+        height: 550px;
+        
+    }
+    .gph{
+        
+        overflow: scroll;
+    }
+    
+    .cphoto{
+        width: 90%;
+        margin-left: 7%;
+        height: 600px;
+        margin-top: 0%;
+    }
+    .gallery{
+        width: 40%;
+        left: 30%;
+    }
+    
+    .pet{
+        top: 1240px;
+    }
+    .contct{
+        width: 40%;
+        margin-left: 30%;
+       
+    }
+    .other{
+        display: grid;
+        grid-template-columns: 48% 48%;
+        column-gap: 5%;
+    }
+    .ek{
+        grid-row: 1/2;
+
+    }
+    .do{
+        margin-top: 25px;
+        grid-row: 2/3;
+    }
+    .teen{
+        grid-row: 2/1;
+    }
+    .chaar{
+        margin-top: 25px;
+        grid-row: 2/3;
+    }
+    .line2{
+        top: 1270px;
+    }
+    .sixth{
+        height: 1400px;
+    }
+    .copyright{
+        top: 1290px;
+    }
+}
+@media screen and (max-width:625px){
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    .first{
+        height: 550px;
+        width: 100%;
+        margin-right: 0%;
+    }
+    .text{
+        width: 250px;
+        left: 20px;
+        height: 200px;
+    }
+    .text big{
+        font-size: 30px;
+    }
+    
+    .bar{
+        display: block;
+        width: 40px;
+        margin-right: 0px;
+        cursor: pointer;
+    }
+    .nav{
+        width: 100%;
+        height: 350px;
+        position: absolute;
+        /* opacity: .1; */
+        top: 40px;
+        left: -100%;
+        transition: .5s ease-in-out;
+        background-color: blue;
+    }
+    .nav ul{
+        display: block;
+        line-height: 50px;
+        text-align: center;
+    }
+    .nav ul a{
+        font-size: 25px;
+        /* background-color: aqua; */
+        /* border: 2px solid red; */
+    }
+    .second{
+        width: 100%;
+       /* background-color: blueviolet; */
+    }
+    .third{
+        height: 960px;
+
+    }
+    .aboutus{
+        height: 50px;
+        width: 150px;
+        left: calc(50%-150px);
+        top: 30px;
+    }
+    .aboutus p{
+        font-size: 20px;
+    }
+    .center{
+        height: 400px;
+        width: 90%;
+        top: 120px;
+        left: 5%;
+    }
+    .para{
+        top: 530px;
+        overflow: scroll;
+    }
+    .more{
+        width: 30%;
+        top: 860px;
+        left: 35%;
+    }
+    .more a{
+        font-size: 20px;
+    }
+    .fourth{
+        height: 1000px;
+    }
+    .happy{
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .meet{
+        font-size: 35px;
+    }
+    .gph{
+        font-size: 20px;
+    }
+    .see button{
+        width: 90%;
+        margin-left: 5%;
+        height: 40px;
+        border: 2px solid white;
+        margin-top: 5px;
+    }
+    .cphoto{
+        height: 400px;
+    }
+    .fifth{
+        height: 2580px;
+    }
+    .gallery{
+        width: 200px;
+        height: 50px;
+        top: 25px;
+    }
+    .gallery p{
+        font-size: 40px;
+    }
+    .slide{
+        display: flex;
+        flex-direction: column;
+        height: 2500px;
+        width: 100%;
+        overflow: hidden;
+        left: 0%;
+        top: 100px;
+    }
+    .a{
+        height: 500px;
+        left: 0%;
+    }
+    .c{
+        height: 400px;
+    }
+    .e{
+        height: 500px;
+    }
+    .pet{
+        top: 2400px;
+        width: 100%;
+        left: 0%;
+        height: 200px;
+        
+    }
+    .sixth{
+       height: 2200px;
+    }
+    .contct{
+        width: 30%;
+        height: 35px;
+        margin-left: 20%;
+        top: 20px;
+    }
+    .contct p{
+        font-size: 25px;
+    }
+    .combine{
+        top: 100px;
+        flex-direction: column;
+    }
+    .map{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+        margin-left: 0%;
+        height: 500px;
+    }
+    .line{
+        top: 870px;
+        width: 100%;
+        left: 0%;
+        margin-right: 0%;
+    }
+    .last{
+        top: 900px;
+        flex-direction: column;
+        height: 1250px;
+        margin-left: 0%;
+        width: 100%;
+    }
+    .subscribe{
+        height: 350px;
+        width: 70%;
+        margin-left: 0%;
+    }
+    .other{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .ek p{
+        text-align: left;
+        padding-left: 15px;
+    }
+    .h1 p{
+        color: tomato;
+        font-size: 30px;
+        padding-top: 0px;
+    }
+    .ek{
+        margin-bottom: 0%;
+    }
+    .do{
+        margin-top: 0%;
+    }
+    .do p{
+        padding-left: 15px;
+    }
+    .h2 p{
+        text-align: start;
+        color: tomato;
+        font-size: 30px;
+        padding-top: 0px;
+    }
+    .teen p{
+        text-align: start;
+        padding-left: 15px;
+    }
+    .h3 p{
+        text-align: start;
+        color: tomato;
+        font-size: 30px;
+        padding-top: 0px;
+    }
+    .chaar{
+        margin-top: 0%;
+        
+    }
+    .h4 p{
+        text-align: start;
+        color: tomato;
+        font-size: 30px;
+        padding-top: 0px;
+        padding-left: 15px;
+    }
+    .line2{
+        top: 2150px;
+        width: 100%;
+        left: 0;
+        margin-right: 0%;
+        
+    }
+    .copyright{
+        top: 2160px;
+    }
+
+}
